@@ -1,0 +1,32 @@
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore .pyc files
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore ICSD and cifs files
+src/ICSD_2024/
+src/cifs/
+src/cifs_gsas/
+src/cifs_gsas_test/
+src/gsasii_test_temp/
+src/instrument_files/
+src/dara_downloaded_cifs/*
+src/*.cif
+src/*.txt
+src/*.html
+notebooks/data/
+notebooks/example_output/
+*.xrdml
+*.json
+*.xy
+*.txt
+*.html
+*.png
+*.svg
+*.html
+notebooks/cifs/
+notebooks/dara_downloaded_cifs/

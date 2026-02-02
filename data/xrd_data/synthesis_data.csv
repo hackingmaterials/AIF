@@ -1,0 +1,3 @@
+Name,Run Name in ALAB,Target,Precursors,Precursors_space_groups,Temperature (C),Dwell Duration (h),Furnace
+TRI_197,TRI-197,CaVO2,"['CaCO3', 'V2O5']","[167, 59]",600,12.0,TF-Ar+H2
+TRI_11,TRI-11,CaVO2,"['CaCO3', 'V2O5']","[167, 59]",900,8.0,BF
