@@ -20,13 +20,5 @@ src/*.txt
 src/*.html
 notebooks/data/
 notebooks/example_output/
-*.xrdml
-*.json
-*.xy
-*.txt
-*.html
-*.png
-*.svg
-*.html
 notebooks/cifs/
 notebooks/dara_downloaded_cifs/
