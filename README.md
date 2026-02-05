@@ -181,7 +181,7 @@ The framework supports multiple datasets configured in `probability_of_interpret
     DATASETS = {
     "TRI": {
         "csv": "../data/xrd_data/synthesis_data.csv",
-        "combos": "../data/xrd_data/difractogram_paths.json",
+        "combos": "../data/xrd_data/diffractogram_paths.json",
         "interpretations":"../data/xrd_data/interpretations/interpretations.json"
         }
    }
