@@ -112,6 +112,38 @@ Ensure you have access to the `dara` package and that it is installed in the sam
 
 6. **API key for LLM**: Set your API key for the CBORG gateway (see [Environment Setup](#environment-setup) below).
 
+## Quick start: installing `dara` and running AIF
+
+This project depends on the `dara` package for XRD phase search and refinement.
+You must install `dara` **before** running AIF.
+
+### 1. Clone and install `dara`
+
+Clone the `dara` repository and install it in editable mode:
+
+```bash
+git clone https://github.com/idocx/dara
+cd dara
+pip install -e .
+```
+
+### 2. Clone the AIF repository
+
+Clone the Automated Interpretation Framework repository:
+
+```bash
+git clone https://github.com/hackingmaterials/AIF
+cd AIF
+```
+
+### 3. Install remaining dependencies
+
+Install the core Python dependencies required to run AIF:
+
+```bash
+pip install openai pymatgen pandas numpy matplotlib plotly
+```
+
 ## Usage
 
 Before running, ensure you have completed [Installation and environment](#installation-and-environment) (including the `dara` package and API key).
@@ -149,7 +181,7 @@ The framework supports multiple datasets configured in `probability_of_interpret
     DATASETS = {
     "TRI": {
         "csv": "../data/xrd_data/synthesis_data.csv",
-        "combos": "../data/xrd_data/difractogram_paths.json",
+        "combos": "../data/xrd_data/diffractogram_paths.json",
         "interpretations":"../data/xrd_data/interpretations/interpretations.json"
         }
    }
